@@ -1,5 +1,5 @@
 # Check Irreducible Polynomial
-This is a python script to check whether your polynomial is irreducible or not
+This is a python script to check whether your polynomial is irreducible or not, with the help of the Sympy library.
 
 This script uses different criterions like Eisenstein's criterion, Perron's criterion, and Cohn's criterion, and will not guarantee that your polynomial is reducible.
 
