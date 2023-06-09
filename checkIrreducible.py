@@ -136,6 +136,9 @@ def cohnCriterion(coeffs_list):
 
 
 def checkIrreducible(coeffs_list):
+  x = symbols('x')
+  if Poly(coeffs_list,x).is_irreducible == False:
+    return False
   for constant_k in range(0,1000):
     for i in [1,-1]:
       for j in [0,1]:
@@ -152,7 +155,7 @@ def checkIrreducible(coeffs_list):
           if cohnCriterion(new_coeffs_list) != False:
             printSolution(coeffs_list, i*constant_k, j, ["Cohn", cohnCriterion(new_coeffs_list)], new_coeffs_list)
             return True
-  return False
+  print("I have not found a way to prove that this polynomial is irreducible")  
   
   
   
