@@ -5,7 +5,7 @@ This script uses different criterions like Eisenstein's criterion, Perron's crit
 
 If a polynomial is indeed irreducible, this script will show you a mathematical proof to prove that the polynomial is irreducible using one of the criterions.
 
-## 🔥 Usage
+## Usage
 
 - Clone the repo
 - Install the requirements
